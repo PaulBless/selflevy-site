@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer>
         {/* <!-- Footer Start --> */}
-        <div className="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div className="container-fluid footer py-0 wow fadeIn" data-wow-delay="0.2s">
             <div className="container py-0">
                 <div className="row g-5">
                     <div className="col-md-6 col-lg-6 col-xl-3">
