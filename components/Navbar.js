@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 // Asset imports
-import Logo from "@/public/assets/img/logo.jpg";
+import Logo from "/public/assets/img/logo.jpg";
 
 export default function Navbar() {
     const pathname = usePathname();

@@ -2,9 +2,6 @@
 import Image from "next/image";
 import Link from 'next/link';
 
-// Asset imports
-import Logo from "@/public/assets/img/logo.jpg";
-
 export default function Footer() {
   return (
     <footer>
@@ -14,7 +11,7 @@ export default function Footer() {
                 <div className="row g-5">
                     <div className="col-md-6 col-lg-6 col-xl-3">
                         <div className="footer-item d-flex flex-column">
-                            <h4 className="text-dark fw-bold mb-4">Company</h4>
+                            <h4 className="text-dark fw-bold mb-4">Useful Links</h4>
                             <Link href="/">Why SelfLevy?</Link>
                             <Link href="/"> FAQs</Link>
                             <Link href="/"> Our Partners </Link>
@@ -25,20 +22,16 @@ export default function Footer() {
                             <h4 className="mb-4 text-dark fw-bold">Quick Links</h4>
                             <Link href=""> About Us</Link>
                             <Link href=""> Contact Us</Link>
-                            <Link href=""> Privacy Policy</Link>
-                            <Link href=""> Terms & Conditions</Link>
-                            <Link href=""> Our Blog & News</Link>
+                            <Link href=""> Features</Link>
                             <Link href=""> Our Team</Link>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-6 col-xl-3">
                         <div className="footer-item d-flex flex-column">
-                            <h4 className="mb-4 text-dark fw-bold">Features </h4>
-                            <Link href=""> All Services</Link>
-                            <Link href=""> Promotional Emails</Link>
-                            <Link href=""> Product Updates</Link>
-                            <Link href=""> Email Marketing</Link>
-                            <Link href=""> Acquistion Emails</Link>
+                            <h4 className="mb-4 text-dark fw-bold">Legal & Support </h4>
+                            <Link href=""> Privacy Policy</Link>
+                            <Link href=""> Cookie Policy</Link>
+                            <Link href=""> Terms & Conditions</Link>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-6 col-xl-3">
