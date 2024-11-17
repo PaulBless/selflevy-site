@@ -1,4 +1,6 @@
 // components/Benefits.js
+'use client';
+
 export default function Benefits() {
     return (
       <section className="py-5 bg-primary text-white">

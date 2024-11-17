@@ -121,10 +121,7 @@
             elem.style.left = pos + "px"; 
           }
         }
-      }
-
-
-   
+    }
 
 })(jQuery);
 

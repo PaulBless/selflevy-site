@@ -1,3 +1,5 @@
+'use client';
+
 const features = [
     {
       title: 'Automated 1% Investment',

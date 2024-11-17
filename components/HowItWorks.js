@@ -1,4 +1,6 @@
 // components/HowItWorks.js
+'use client';
+
 export default function HowItWorks() {
     const steps = [
       {

@@ -6,8 +6,6 @@ import Image from "next/image";
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-// Asset imports
-import Logo from "@/public/assets/img/logo.jpg";
 
 export default function Navbar() {
     const pathname = usePathname();
@@ -34,7 +32,7 @@ export default function Navbar() {
             <nav className={`navbar navbar-expand-lg navbar-light ${isMobile ? 'bg-primary text-white' : 'bg-transparent'} px-4 px-lg-5 py-3 py-lg-0`} >
             <Link href="/" className="navbar-brand">
             <Image
-                src={Logo}
+                src="/assets/img/logo.jpg"
                 alt="Logo"
                 width={120}
                 height={90}

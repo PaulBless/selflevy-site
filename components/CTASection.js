@@ -1,4 +1,6 @@
 // components/CTASection.js
+'use client';
+
 import Link from "next/link";
 // --bs-theme: #05472A;
 // --bs-sl: #043927;
