@@ -3,7 +3,7 @@ import Hero from "@/components/Home/Hero";
 import About from "@/components/Home/About";
 import WhySelfLevy from "@/components/Home/WhySelfLevy";
 import HowItWorks from '@/components/HowItWorks'
-import Benefits from '@/components/Benefits'
+import SLBenefits from '@/components/SLBenefits'
 import Features from '@/components/Features'
 import CTASection from '@/components/CTASection'
 import Main from '@/components/Main'
@@ -14,10 +14,10 @@ export default function Home() {
       <Hero />
       {/* <Main /> */}
       <About />
-      <HowItWorks />
       <Features />
+      <HowItWorks />
       <WhySelfLevy />
-      <Benefits />
+      <SLBenefits />
       <CTASection />
     </div>
   );

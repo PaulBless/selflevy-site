@@ -24,9 +24,9 @@ const Hero = () => {
         </div>
         <div className="row gy-5 align-items-center">
             <div className="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
-                <h1 className="display-5 text-dark mb-4 wow fadeInUp" data-wow-delay="0.3s">Turn E-Levy into Revenue</h1>
-                <p className="fs-4 mb-4 wow fadeInUp" data-wow-delay="0.5s"><b>SelfLevy</b> let you experience an easy and personalized money management solution for you to transact, save, and invest.</p>
-                <Link href="https://personal.selflevy.com" target="_blank" className="btn btn-primary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.7s">Get Started</Link>
+                <h1 className="display-5 text-dark mb-4 wow fadeInUp" data-wow-delay="0.3s">Transform Your 1% ELevy into Wealth</h1>
+                <p className="fs-4 text-gray mb-4 wow fadeInUp" data-wow-delay="0.5s">Continue the 1% contribution, but invest in your future instead. <b>SelfLevy</b> is an easy and personalized money management solution for you to transform your transaction taxes into future revenue and investments.</p>
+                <Link href="https://personal.selflevy.com" target="_blank" className="btn btn-primary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.7s">Start Investing Now</Link>
             </div>
             <div className="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
                 <Image src={HeroImg} className="img-fluid w-100 h-100" alt="" ></Image>

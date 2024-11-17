@@ -45,8 +45,6 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css" />
-
         {/* <!-- Libraries Stylesheet --> */}
         <link href="assets/lib/animate/animate.min.css" rel="stylesheet" />
         <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />

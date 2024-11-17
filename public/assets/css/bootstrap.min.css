@@ -209,6 +209,7 @@
   sup {
     top: -0.5em;
   }
+  /* Links */
   a {
     color: #f74780;
     text-decoration: none;
@@ -2641,19 +2642,19 @@
   }
   .btn-secondary {
     color: #fff;
-    background-color: #6610f2;
-    border-color: #6610f2;
+    background-color: #70bc4f;
+    border-color: #70bc4f;
   }
   .btn-secondary:hover {
     color: #fff;
-    background-color: #570ece;
-    border-color: #520dc2;
+    background-color: #2C6f34;
+    border-color: #2C6f34;
   }
   .btn-check:focus + .btn-secondary,
   .btn-secondary:focus {
     color: #fff;
-    background-color: #570ece;
-    border-color: #520dc2;
+    background-color: #2C6f34;
+    border-color: #2C6f34;
     box-shadow: 0 0 0 0.25rem rgba(125, 52, 244, 0.5);
   }
   .btn-check:checked + .btn-secondary,

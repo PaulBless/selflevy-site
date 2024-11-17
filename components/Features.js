@@ -26,16 +26,16 @@ export default function Features() {
     ];
   
     return (
-      <section className="py-5 bg-light">
+      <div className="container-fluid py-5 bg-light">
         <div className="container py-5">
           <h2 className="display-5 text-sl text-center mb-5 wow fadeUp" data-aos="fade-up">
             Features
           </h2>
-          <div className="row">
+          <div className="row g-3">
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="col-md-6 col-lg-3 mb-4"
+                className="col-md-6 col-lg-6 col-xl-3 mb-4"
                 data-aos="fade-up"
                 data-aos-delay={index * 100}
               >
@@ -50,7 +50,7 @@ export default function Features() {
             ))}
           </div>
         </div>
-      </section>
+      </div>
     );
   }
   

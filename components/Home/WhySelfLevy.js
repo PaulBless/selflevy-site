@@ -2,18 +2,16 @@ import Image from "next/image";
 
 const WhySelfLevy = () => {
     return (
-      <div className="container py-5">
+      <div className="container why-selflevy pb-5">
         <div className="row">
             <div className="col-lg-8 offset-lg-2">
                 <h1 className="display-5 text-sl text-center">Why SelfLevy?</h1>
                 <p className="description text-gray text-center ">
-                  {/* Our products are designed with you in mind. If you’re looking for convenient day-to-day banking, to save for a rainy day or to put away money for that big purchase, we’re here to help you.
-                   */}
-                   
+                  Our products are designed with you in mind. If you’re looking for convenient day-to-day banking, to save for a rainy day or to put away money for that big purchase, we’re here to help you.
                 </p>
             </div>
         </div>
-        <div className="row row-eq-height g-4 justify-content-center py-5 text-center">
+        <div className="row row-eq-height g-4 justify-content-center text-center">
             <div className="col-lg-4 col-md-6 mb-3">
                 <div className="base-panel h-100 pb-0">
                     <div className="card-body">
