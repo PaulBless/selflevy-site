@@ -37,9 +37,8 @@ export default function Features() {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="col-md-6 col-lg-6 col-xl-3 mb-4"
-                data-aos="fade-up"
-                data-aos-delay={index * 100}
+                className="col-md-6 col-lg-6 col-xl-3 mb-4 wow fadeInUp"
+                data-wow-delay={index * 100}
               >
                 <div className="card h-100 shadow-sm">
                   <div className="card-body text-center">
