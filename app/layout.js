@@ -71,6 +71,7 @@ export default function RootLayout({ children }) {
         <Script src="assets/lib/counterup/counterup.min.js" strategy="lazyOnload" />
         <Script src="assets/lib/owlcarousel/owl.carousel.min.js" strategy="lazyOnload" />
         <Script src="assets/lib/lightbox/js/lightbox.min.js" strategy="lazyOnload" />
+        {/* <Script src="assets/js/scripts.js" strategy="lazyOnload" /> */}
         <Script src="assets/js/main.js" strategy="lazyOnload" />
       </body>
     </html>
