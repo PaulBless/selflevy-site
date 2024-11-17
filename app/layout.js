@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import Script from 'next/script';
-
+import { Analytics } from "@vercel/analytics/react"
 
 // Customized Bootstrap & Theme Styles
 // import "@/public/assets/css/bootstrap.min.css";
