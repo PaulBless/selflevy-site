@@ -27,7 +27,7 @@ export default function HowItWorks() {
             <div className="row text-center">
             <div className="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '700px'}}>
                 <h2 className="display-5 text-sl wow fadeInUp" data-aos="fade-up">How It Works</h2>
-                <p className="mb-5">SelfLevy money management is completely free to use. Whether you want to save money, track your expenses, or invest, SelfLevy has got you covered!</p>
+                <p className="mb-5">Learn the simple steps to transform 1% of your transaction taxes into investments.</p>
             </div>
             </div>
             <div className="row g-4 text-center">

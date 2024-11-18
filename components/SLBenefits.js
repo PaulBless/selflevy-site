@@ -6,7 +6,7 @@ const SLBenefits = () => {
             <div className="row">
                 <div className="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: '700px'}}>
                     <h1 className="display-5 text-sl mb-4">Benefits </h1>
-                    <p className="mb-5">SelfLevy money management is carefully designed with you in mind; packed with great benefits that augment your finances.</p>
+                    <p className="mb-5">See how SelfLevy helps you build wealth, secure your future, and achieve your goals.</p>
                 </div>
             </div>
             <div className="row g-4 justify-content-center mb-5">
@@ -33,7 +33,8 @@ const SLBenefits = () => {
                     </div>
                 </div>
             </div>
-        </div></section>
+        </div>
+        </section>
     );
 };
 

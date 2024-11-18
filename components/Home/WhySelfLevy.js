@@ -9,7 +9,7 @@ const WhySelfLevy = () => {
             <div className="col-lg-8 offset-lg-2">
                 <h1 className="display-5 text-sl text-center">Why SelfLevy?</h1>
                 <p className="description text-gray text-center ">
-                  Our products are designed with you in mind. If you’re looking for convenient day-to-day banking, to save for a rainy day or to put away money for that big purchase, we’re here to help you.
+                    Discover how SelfLevy empowers you to turn everyday transactions into long-term wealth.
                 </p>
             </div>
         </div>
@@ -18,9 +18,9 @@ const WhySelfLevy = () => {
                 <div className="base-panel h-100 pb-0">
                     <div className="card-body">
                       <img className="mb-3" src="assets/img/easy.svg" alt="secure icon" />
-                      <h4 className="text-black">It’s Secure</h4>
+                      <h4 className="text-black fw-bold">It’s Secure</h4>
                       <p className="text-gray">
-                          No monthly fees, earn interest
+                        Your funds and data are protected with top-notch security measures.
                       </p>
                     </div>
                 </div>
@@ -29,9 +29,9 @@ const WhySelfLevy = () => {
                 <div className="base-panel h-100 pb-0">
                     <div className="card-body">
                         <img className="mb-3" src="assets/img/easy.svg" alt="rapid account icon" />
-                        <h4 className="text-black">It’s Easy</h4>
+                        <h4 className="text-black fw-bold">It’s Easy</h4>
                         <p className="text-gray">
-                            Get an account in a few simple steps
+                            Sign up effortlessly and start saving in just a few simple steps.
                         </p>
                     </div>
                 </div>
@@ -40,9 +40,9 @@ const WhySelfLevy = () => {
                 <div className="base-panel h-100 pb-0">
                     <div className="card-body">
                         <img className="mb-3" src="assets/img/growth.svg"  alt="free icon" />
-                        <h4 className="text-black">It’s Convenient</h4>
+                        <h4 className="text-black fw-bold">It’s Convenient</h4>
                         <p className="text-gray">
-                            Access your secure account 24/7
+                            Enjoy 24/7 access to your secure account anytime, anywhere.
                         </p>
                     </div>
                 </div>

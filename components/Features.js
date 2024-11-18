@@ -30,9 +30,10 @@ export default function Features() {
     return (
       <div className="container-fluid py-5 bg-light">
         <div className="container py-5">
-          <h2 className="display-5 text-sl text-center mb-5 wow fadeUp" data-aos="fade-up">
+          <h2 className="display-5 text-sl text-center mb-3 wow fadeUp" data-aos="fade-up">
             Features
           </h2>
+          <p className="text-center mb-5 wow fadeUp">Explore the innovative tools and options that make saving and investing effortless.</p>
           <div className="row g-3">
             {features.map((feature, index) => (
               <div
