@@ -9,6 +9,7 @@ import WhySelfLevy from "@/components/Home/WhySelfLevy";
 import HowItWorks from '@/components/HowItWorks';
 import SLBenefits from '@/components/SLBenefits';
 import Features from '@/components/Features';
+import Testimonial from '@/components/Testimonial';
 import CTASection from '@/components/CTASection'; 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       <HowItWorks />
       <WhySelfLevy />
       <SLBenefits />
+      {/* <Testimonial /> */}
       <CTASection />
     </div>
   );

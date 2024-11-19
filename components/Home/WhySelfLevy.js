@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const WhySelfLevy = () => {
     return (
-      <div className="container why-selflevy pb-5">
+      <div className="container why-selflevy pb-5" id="why">
         <div className="row">
             <div className="col-lg-8 offset-lg-2">
                 <h1 className="display-5 text-sl text-center">Why SelfLevy?</h1>

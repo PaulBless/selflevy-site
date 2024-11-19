@@ -970,7 +970,7 @@
     background-size: cover;
 }
 .footer .footer-item h4 {
-    color: #70bc4f;
+    color: #2c6f34;
 }
 .footer .footer-item a {
     line-height: 35px;
@@ -988,11 +988,14 @@
 /*** Footer End ***/
 
 /*** copyright Start ***/
-
 .copyright {
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-top: 1px solid rgba(235, 229, 229, 0.7);
+    color: var(--bs-gray) !important;
 }
-.copyright .owner:hover {
-    color: #70bc4f;
+.copyright a {
+    color: var(--bs-gray) !important;
+}
+.copyright a:hover {
+    color: var(--bs-secondary) !important;
 }
 /*** copyright end ***/

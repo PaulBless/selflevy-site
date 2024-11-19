@@ -39,6 +39,7 @@ export default function Footer() {
                                 <h4 className="mb-4 fw-bold">Legal & Support </h4>
                                 <Link href=""> Privacy Policy</Link>
                                 <Link href=""> Cookie Policy</Link>
+                                <Link href=""> Insurance Policy</Link>
                                 <Link href=""> Terms & Conditions</Link>
                             </div>
                         </div>
@@ -47,8 +48,7 @@ export default function Footer() {
                                 <h4 className="mb-4 fw-bold">Contact Info</h4>
                                 <Link href=""><i className="fa fa-map-marker-alt me-2"></i> 7th Floor Regus, Accra</Link>
                                 <Link href="mailto:info@selflevy.com?subject=SelfLevy Inquiry"><i className="fas fa-envelope me-2"></i> info@selflevy.com</Link>
-                                <Link href=""><i className="fas fa-phone me-2"></i> +012 345 67890</Link>
-                                <Link href="" className="mb-3"><i className="fas fa-phone me-2"></i> +012 345 67890</Link>
+                                <Link href="tel:+233244355591" className="mb-3"><i className="fas fa-phone me-2"></i> +233 24 435 5591</Link>
                                 <div className="d-flex align-items-center">
                                     <Link className="btn-square btn btn-primary rounded-circle mx-1" href=""><i className="fab fa-facebook-f"></i></Link>
                                     <Link className="btn-square btn btn-primary rounded-circle mx-1" href=""><i className="fab fa-twitter"></i></Link>
@@ -64,13 +64,13 @@ export default function Footer() {
             
             {/* <!-- Copyright Start --> */}
             <div className="container-fluid copyright py-4">
-                <div className="container">
+                <div className="container text-body">
                     <div className="row g-4 align-items-center">
                         <div className="col-md-6 text-center text-md-start mb-md-0">
-                        <Link href="/" className="owner text-light me-2">SelfLevy</Link> <span className="text-light" suppressHydrationWarning >&copy; {currentDate}, All rights reserved.</span>
+                            <Link href="/" className="text-body border-bottom me-1">SelfLevy</Link><span suppressHydrationWarning>&copy; {currentDate}, All rights reserved.</span>
                         </div>
-                        <div className="col-md-6 text-center text-md-end text-white">
-                            Powered By <Link className="dev border-bottom text-light" href="https://berlintechnologiesafrica.com">Berlin Technologies</Link>
+                        <div className="col-md-6 text-center text-md-end">
+                            Powered By <Link className="border-bottom " href="https://berlintechnologiesafrica.com" target='_blank'>Berlin Technologies</Link>
                         </div>
                     </div>
                 </div>
